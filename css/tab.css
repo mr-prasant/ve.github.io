@@ -1,0 +1,65 @@
+@media only screen and (max-width: 1150px) {
+    nav {
+        height: auto;
+        flex-direction: column;
+        padding: 0.5rem 2rem;
+    }
+
+    nav .nav-center .nav-btns {
+        margin-top: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .btmarrow {
+        opacity: 0;
+    }
+
+    .headline-title {
+        padding: 0 10vw;
+    }
+
+    .main-top .title {
+        font-size: 2rem;
+    }
+
+    .main-top .slogan {
+        font-size: 1.4rem;
+    }
+
+    .person-container {
+        width: 80vw;
+    }
+
+    .person-card {
+        flex: 0 0 32vw;
+        height: 18rem;
+        margin: 0;
+    }
+
+    .achivs-container {
+        margin-top: 3rem;
+        width: 80vw;
+    }
+
+    .p-container {
+        width: 80vw;
+        padding: 0;
+    }
+
+    .card {
+        padding: 1.6rem;
+        margin: 1rem 0.5rem;
+    }
+
+    .footer-addr {
+        width: 95vw;
+    }
+
+    .addr1,
+    .addr2 {
+        flex: 0 0 30vw;
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+}
