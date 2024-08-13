@@ -19,6 +19,7 @@ footer {
 .addr1, .addr2 {
     flex: 0 0 24rem;
     margin: 0 2rem;
+    padding: 0 1rem;
 }
 
 .footer-addr-title {

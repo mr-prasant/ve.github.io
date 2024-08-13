@@ -63,7 +63,7 @@ main .main-top {
     justify-content: right;
 }
 
-.btmarrow .img {
+/* .btmarrow .img {
     width: 3rem;
     height: 3rem;
     background: url(../imgs/bottomarrow.gif);
@@ -72,10 +72,10 @@ main .main-top {
     margin: 3.5rem 2rem 2.5rem 0;
     background-repeat: no-repeat;
 
-}
+} */
 
 #about {
-    margin-top: 1rem;
+    margin-top: 5rem;
     scroll-behavior: smooth;
 }
 

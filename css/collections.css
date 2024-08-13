@@ -48,3 +48,13 @@
 .radial-button a i {
     padding-right: 3px;
 }
+
+.footer-addr-title {
+    margin: 0.5rem 0;
+    font-size: 0.95rem;
+}
+
+.footer-addr-desc {
+    margin-bottom: 1.5rem;
+    font-size: 0.8rem;
+}
