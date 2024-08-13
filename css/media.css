@@ -1,0 +1,227 @@
+@media only screen and (max-width: 1150px) {
+    body {
+        background: lightblue;
+    }
+
+    nav {
+        height: auto;
+        flex-direction: column;
+        padding: 0.5rem 2rem;
+    }
+
+    nav .nav-center .nav-btns {
+        margin-top: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .btmarrow {
+        opacity: 0;
+    }
+
+    .headline-title {
+        padding: 0 10vw;
+    }
+
+    .main-top .title {
+        font-size: 2rem;
+    }
+
+    .main-top .slogan {
+        font-size: 1.4rem;
+    }
+    
+    .person-card {
+        margin: 1rem 2rem;
+    }
+}
+
+@media only screen and (min-width: 120px) and (max-width: 800px) {
+    body {
+        width: 100vw;
+        background: rgb(245, 185, 185);
+    }
+
+    .nav-btns .nav-btn {
+        margin: 0.3rem 0.8rem;
+    }
+
+    .nav-btns .nav-btn a {
+        font-size: 0.8rem;
+    }
+
+
+    .main-top .top-quote {
+        font-size: 0.9rem;
+    }
+
+    .main-top .top-logo {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .main-top .title {
+        font-size: 1.1rem;
+    }
+
+    .main-top .slogan {
+        font-size: 0.7rem;
+    }
+
+    .contactbtn a {
+        padding: 0.6rem 1.5rem;
+        
+    }
+
+    .officebtn a {
+        padding: 0.6rem 1.7rem;
+    }
+
+    .radial-button a {
+        font-size: 0.9rem;
+        border-width: 1.2px;
+    }
+
+    #about {
+        margin: 0;
+    }
+
+    .headline-title {
+        padding: 0 5vw;
+    }
+
+    .headline-title .s-title {
+        font-size: 0.8rem;
+    }
+
+    .s-subtitle {
+        font-size: 1.2rem;
+    }
+
+    .s-subtitle::before {
+        height: 1.2rem;
+    }
+
+    .headline-title .s-desc {
+        font-size: 0.8rem;
+    }
+    
+    .headline-title .s-desc .sd-upper {
+        flex-direction: column;
+    }
+
+    .about-img {
+        display: flex;
+        justify-content: center;
+        margin-top: 1.5rem;
+    }
+
+    .person-card {
+        width: 15rem;
+        margin: 1rem 1rem;
+    }
+    
+    .p-name {
+        margin: 0.5rem 0;
+        font-size: 0.8rem;
+    }
+    
+    .p-name i {
+        opacity: 0.7;
+        font-size: 0.7rem;
+    }
+    
+    .p-contact div i {
+        font-size: 0.8rem;
+    }
+
+    .p-contact div {
+        margin: 0.4rem;
+        font-size: 0.8rem;
+    }
+
+    .specia-container {
+        width: 90vw;
+    }
+
+    .specia-card {
+        min-width: 10rem;
+    }
+
+    .specia-card .sc-title {
+        font-size: 0.9rem;
+    }
+
+    .specia-card .sc-desc {
+        font-size: 0.75rem;
+    }
+
+    #services {
+        padding: 1rem;
+    }
+
+    .service-card .sc-content {
+        font-size: 0.85rem;
+    }
+
+    .achivs-container div {
+        margin: 1rem 0.5rem;
+        font-size: 1rem;
+        padding: 0.6rem 1rem;
+    }
+
+    .service-card .sc-icon {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .fa-star {
+        font-size: 12px;
+        color: whitesmoke;
+    }
+
+    .env-services .es-title {
+        font-size: 1.2rem;
+    }
+
+    .env-services .es-card {
+        min-width: auto;
+        font-size: 0.85rem;
+    }
+
+    .env-services .es-card .card-icon {
+        margin-right: 0.5rem;
+        margin-left: 0;
+        font-size: 1rem;
+    }
+
+    .mission .mission-desc {
+        margin: 1.5rem 2rem;
+        font-size: 1rem;
+    }
+
+    .vision .vision-desc {
+        width: fit-content;
+        margin: 1.5rem 2rem;
+        font-size: 1rem;
+        margin-bottom: 5rem;
+    }
+
+    .achivs-container {
+        width: 90vw;
+    }
+    
+    .bmw-container {
+        font-size: 0.8rem;
+    }
+
+    .footer-addr {
+        padding: 0 10vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+    
+
+}
